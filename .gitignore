@@ -1,0 +1,37 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Vite
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# LiveKit local server
+backend/livekit/livekit-server.exe
+backend/livekit/livekit.yaml
+
+# Certificates and private keys
+*.pem
+*.key
+*.crt
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
